@@ -1,2 +1,2 @@
-# Web-Developer-Bootcamp
-Un repositorio de todo el trabajo que haga en el campamentp
+Este es un resumen de todos los trabajos que haga en el curso
+Espero sirva para checar lo que aprendi
