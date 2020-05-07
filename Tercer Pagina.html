@@ -6,14 +6,54 @@
   </head>
   <body>
     <h1>Tipos de Input</h1>
-<input type="text" placeholder="Usuario">Texto
-<input type="password" placeholder="Contraseña">Contraseña
-<button type="button" name="Entrar">Entrar</button>
 
-<br>
-<br>
-<input type="color"placeholder="White">Color
-<input type="radio">Radio
-<input type="submit" name="" value="">
+      <form>
+        <label for="User">User:</label>
+        <input id="User" name="Usuario" type="text" placeholder="Usuario" required>
+
+        <label for="mail">Correo:</label>
+        <input id="mail" name="Correo" type="email" placeholder="Correo"><br>
+
+        <label for="Con">Pass: </label>
+        <input id="Con" name="Contraseña" type="password" placeholder="Contraseña" required>
+
+        <button type="submit">Entrar</button>
+      </form>
+
+<h3> Seleccionadores</h3>
+
+      <form>
+        <p>¿Que Prefieres?</p>
+
+        <label for="Dog">Perro : </label>
+        <input type="radio" name="Prefiero" value="Perro" id="Dog">
+
+        <label for="Cat">Gato : </label>
+        <input type="radio" name="Prefiero" value="Gato" id="Cat">
+
+        <p>¿Cual es tu color favorito?</p>
+
+        <select name="Color">
+          <option>Azul</option>
+          <option>Rojo</option>
+          <option>Verde</option>
+          <option>Amarillo</option>
+        </select>
+
+        <p>¿Como te sientes en este momento?</p>
+
+        <select name="Me siento">
+          <option value="Feliz">:D</option>
+          <option value="Decepcionado">:/</option>
+          <option value="Triste">:C</option>
+          <option value="Enojado">>:I</option>
+        </select>
+
+        <p>¿Tienes algun Comentario?</p>
+        <textarea name="Comentario" rows="4" cols="30"></textarea>
+
+        <button type="submit">Ir</button>
+      </form>
+
   </body>
 </html>
