@@ -1,0 +1,38 @@
+body{
+text-align: center;
+text-align:
+}
+
+table{
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+}
+td{
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+}
+.arriba td{
+  border-top: 0px;
+}
+/* .abajo td{
+  border-bottom: 0px;
+} */
+tr td:nth-of-type(1n+0){
+  border-left: 0px;
+}
+tr td:nth-of-type(3n+0){
+  border-right: 0px;
+}
+td{
+  f
+}
+.especial{
+  height: 200px;
+}
+.perro{
+  height: 100px;
+  width: 100px;
+  padding-bottom: 0px;
+}

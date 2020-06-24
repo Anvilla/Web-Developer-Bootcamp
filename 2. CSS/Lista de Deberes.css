@@ -1,0 +1,13 @@
+body {
+  background: blue;
+}
+li {
+  border: 2px solid red;
+}
+#x{
+  background: yellow;
+}
+.y{
+  background: white;
+  text-decoration: line-through;
+}

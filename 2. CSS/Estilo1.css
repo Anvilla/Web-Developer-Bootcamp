@@ -1,0 +1,17 @@
+h1 {
+  color:blue;
+  border: 1px solid red;
+}
+li {
+  color:red;
+}
+h3 {
+  color:darkblue;
+  background: rgb(255, 100, 80);
+}
+body{
+  background: url(http://www.pets4homes.co.uk/images/breeds/49/large/2d28a86690eb641b75e3661f3975b9a5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tercer Pagina</title>
+  </head>
+  <body>
+    <h1>Tipos de Input</h1>
+
+      <form>
+        <label for="User">User:</label>
+        <input id="User" name="Usuario" type="text" placeholder="Usuario" required>
+
+        <label for="mail">Correo:</label>
+        <input id="mail" name="Correo" type="email" placeholder="Correo"><br>
+
+        <label for="Con">Pass: </label>
+        <input id="Con" name="Contraseña" type="password" placeholder="Contraseña" required>
+
+        <button type="submit">Entrar</button>
+      </form>
+
+<h3> Seleccionadores</h3>
+
+      <form>
+        <p>¿Que Prefieres?</p>
+
+        <label for="Dog">Perro : </label>
+        <input type="radio" name="Prefiero" value="Perro" id="Dog">
+
+        <label for="Cat">Gato : </label>
+        <input type="radio" name="Prefiero" value="Gato" id="Cat">
+
+        <p>¿Cual es tu color favorito?</p>
+
+        <select name="Color">
+          <option>Azul</option>
+          <option>Rojo</option>
+          <option>Verde</option>
+          <option>Amarillo</option>
+        </select>
+
+        <p>¿Como te sientes en este momento?</p>
+
+        <select name="Me siento">
+          <option value="Feliz">:D</option>
+          <option value="Decepcionado">:/</option>
+          <option value="Triste">:C</option>
+          <option value="Enojado">>:I</option>
+        </select>
+
+        <p>¿Tienes algun Comentario?</p>
+        <textarea name="Comentario" rows="4" cols="30"></textarea>
+
+        <button type="submit">Ir</button>
+      </form>
+
+  </body>
+</html>

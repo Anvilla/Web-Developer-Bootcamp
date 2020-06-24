@@ -1,0 +1,9 @@
+
+.btn-sombra {
+	background-color: #FFFFFF;
+	position: relative;
+	box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.90),
+							8px 6px 15px 1px #7F7F7F;
+  border-radius: 0.25em;
+	background-image: repeating-radial-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+}
